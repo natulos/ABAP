@@ -1,0 +1,20 @@
+CLASS zcl_07_eagm_animal DEFINITION
+  PUBLIC
+  CREATE PUBLIC .
+
+  PUBLIC SECTION.
+    METHODS:
+      walk RETURNING VALUE(rv_walk) TYPE string.
+  PROTECTED SECTION.
+  PRIVATE SECTION.
+ENDCLASS.
+
+
+
+CLASS ZCL_07_EAGM_ANIMAL IMPLEMENTATION.
+
+
+  METHOD walk.
+    rv_walk = 'The animal walks'.
+  ENDMETHOD.
+ENDCLASS.

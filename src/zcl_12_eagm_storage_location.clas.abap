@@ -1,0 +1,25 @@
+CLASS zcl_12_eagm_storage_location DEFINITION
+  PUBLIC
+  FINAL
+  CREATE PUBLIC
+  GLOBAL FRIENDS zcl_11_eagm_plant.
+
+  PUBLIC SECTION.
+  PROTECTED SECTION.
+  PRIVATE SECTION.
+    DATA:
+        prodcut TYPE string.
+
+    METHODS:
+      set_product IMPORTING iv_product TYPE string.
+ENDCLASS.
+
+
+
+CLASS ZCL_12_EAGM_STORAGE_LOCATION IMPLEMENTATION.
+
+
+  METHOD set_product.
+
+  ENDMETHOD.
+ENDCLASS.

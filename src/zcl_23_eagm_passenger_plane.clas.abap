@@ -1,0 +1,21 @@
+CLASS zcl_23_eagm_passenger_plane DEFINITION
+  PUBLIC
+  INHERITING FROM zcl_21_eagm_airplane
+  FINAL
+  CREATE PUBLIC .
+
+  PUBLIC SECTION.
+    METHODS: airplane_type REDEFINITION.
+  PROTECTED SECTION.
+  PRIVATE SECTION.
+ENDCLASS.
+
+
+
+CLASS ZCL_23_EAGM_PASSENGER_PLANE IMPLEMENTATION.
+
+
+  METHOD airplane_type.
+    rv_airplane_type = 'Passanger Plane'.
+  ENDMETHOD.
+ENDCLASS.
